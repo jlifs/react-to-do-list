@@ -1,8 +1,8 @@
 import "./App.css";
 import React, { useState } from "react";
 import "./App.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTrash } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 function App() {
   const [input, setInput] = useState("");
@@ -75,7 +75,7 @@ function App() {
                   }}
                   aria-label={`Delete task:${task.text}`}
                 >
-                  <faTrash />
+                  <FontAwesomeIcon icon="fa-solid fa-trash-can" />
                 </button>
               </div>
             </li>
